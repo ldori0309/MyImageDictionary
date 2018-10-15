@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ListPreference
+        android:defaultValue="@string/france_value"
+        android:entries="@array/language_labels"
+        android:entryValues="@array/language_values"
+        android:key="@string/pref_language_key"
+        android:title="@string/pref_language_label"
+        android:dialogIcon="@drawable/ic_language"
+        android:icon="@drawable/ic_language" />
+
+    <ListPreference
+        android:defaultValue="@string/dark_value"
+        android:entries="@array/theme_labels"
+        android:entryValues="@array/theme_values"
+        android:key="@string/pref_theme_key"
+        android:title="@string/pref_theme_label"
+        android:dialogIcon="@drawable/ic_theme"
+        android:icon="@drawable/ic_theme" />
+
+    <ListPreference
+        android:defaultValue="@string/blue_value"
+        android:entries="@array/color_labels"
+        android:entryValues="@array/color_values"
+        android:key="@string/pref_color_key"
+        android:title="@string/pref_color_label"
+        android:dialogIcon="@drawable/ic_color"
+        android:icon="@drawable/ic_color" />
+
+</PreferenceScreen>

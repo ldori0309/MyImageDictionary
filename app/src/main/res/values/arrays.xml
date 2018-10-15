@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="language_labels">
+        <item>@string/france_label</item>
+        <item>@string/german_label</item>
+        <item>@string/hungarian_label</item>
+        <item>@string/italian_label</item>
+        <item>@string/polish_label</item>
+        <item>@string/russian_label</item>
+        <item>@string/spanish_label</item>
+        <item>@string/swedish_label</item>
+        <item>@string/turkish_label</item>
+    </array>
+
+    <array name="language_values">
+        <item>@string/france_value</item>
+        <item>@string/german_value</item>
+        <item>@string/hungarian_value</item>
+        <item>@string/italian_value</item>
+        <item>@string/polish_value</item>
+        <item>@string/russian_value</item>
+        <item>@string/spanish_value</item>
+        <item>@string/swedish_value</item>
+        <item>@string/turkish_value</item>
+    </array>
+
+    <array name="theme_labels">
+        <item>@string/dark_label</item>
+        <item>@string/light_label</item>
+    </array>
+
+    <array name="theme_values">
+        <item>@string/dark_value</item>
+        <item>@string/light_value</item>
+    </array>
+
+    <array name="color_labels">
+        <item>@string/blue_label</item>
+        <item>@string/green_label</item>
+        <item>@string/red_label</item>
+    </array>
+
+    <array name="color_values">
+        <item>@string/blue_value</item>
+        <item>@string/green_value</item>
+        <item>@string/red_value</item>
+    </array>
+
+</resources>

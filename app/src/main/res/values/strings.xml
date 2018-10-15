@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">My Image Dictionary</string>
+
+    <string name="pref_first_run" translatable="false">firstrun</string>
+
+    <string name="change_language_title">Change the language? </string>
+    <string name="change_language_msg">Your dictionary will be deleted!</string>
+    <string name="ok_label">OK</string>
+    <string name="cancel_label">Cancel</string>
+
+    <string name="select_language">Select a language, please!</string>
+
+    <string name="pref_language_key" translatable="false">language</string>
+    <string name="pref_language_label">Select language</string>
+    <string name="france_label">France</string>
+    <string name="german_label">German</string>
+    <string name="hungarian_label">Hungarian</string>
+    <string name="italian_label">Italian</string>
+    <string name="polish_label">Polish</string>
+    <string name="russian_label">Russian</string>
+    <string name="spanish_label">Spanish</string>
+    <string name="swedish_label">Swedish</string>
+    <string name="turkish_label">Turkish</string>
+    <string name="france_value" translatable="false">fra</string>
+    <string name="german_value" translatable="false">deu</string>
+    <string name="hungarian_value" translatable="false">hun</string>
+    <string name="italian_value" translatable="false">ita</string>
+    <string name="polish_value" translatable="false">pol</string>
+    <string name="russian_value" translatable="false">rus</string>
+    <string name="spanish_value" translatable="false">spa</string>
+    <string name="swedish_value" translatable="false">swe</string>
+    <string name="turkish_value" translatable="false">tur</string>
+
+    <string name="pref_theme_key" translatable="false">theme</string>
+    <string name="pref_theme_label">Select theme</string>
+    <string name="dark_label">Dark</string>
+    <string name="light_label">Light</string>
+    <string name="dark_value" translatable="false">dark</string>
+    <string name="light_value" translatable="false">light</string>
+
+    <string name="pref_color_key" translatable="false">color</string>
+    <string name="pref_color_label">Select color</string>
+    <string name="blue_label">Blue</string>
+    <string name="green_label">Green</string>
+    <string name="red_label">Red</string>
+    <string name="blue_value" translatable="false">blue</string>
+    <string name="green_value" translatable="false">green</string>
+    <string name="red_value" translatable="false">red</string>
+
+    <string name="new_image">Analyze Image</string>
+    <string name="my_words">My Dictionary</string>
+    <string name="settings">Settings</string>
+    <string name="exit">Exit</string>
+
+    <string name="edit">Edit</string>
+
+    <string name="take_or_upload_picture">Touch to take or upload a picture!</string>
+    <string name="take_photo">Take photo</string>
+    <string name="choose_from_gallery">Choose from gallery</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="retry">Retry</string>
+
+    <string name="permission_denied">Don"'"t have the permission to launch the camera. Please, provide permission.</string>
+    <string name="no_network_msg">Unable to load data. Check your connection, please!</string>
+    <string name="error">Error finding image.</string>
+    <string name="words_added_to_dictionary">Words successfully added to dictionary.</string>
+    <string name="words_deleted_from_dictionary">Words successfully deleted from dictionary.</string>
+
+    <string name="empty_view_text">Dictionary is empty!</string>
+
+    <string name="delete_selected_words">Delete selected words in dictionary.</string>
+    <string name="select_word">Select or deselect word.</string>
+    <string name="add_picture">Add photo</string>
+    <string name="save">Save changes.</string>
+    <string name="add">Add words to dictionary.</string>
+    <string name="back">Restart.</string>
+    <string name="analyze">Analyze picture.</string>
+    <string name="analyzed_image">Image to be analyzed.</string>
+
+</resources>

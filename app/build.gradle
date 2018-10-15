@@ -1,0 +1,76 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.example.dora.myimagedictionary"
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        flavorDimensions "default"
+    }
+    signingConfigs {
+        release {
+            keyAlias 'myimagedictionary'
+            keyPassword 'myimagedictionary'
+            storeFile file('keystore/keystore.jks')
+            storePassword 'keystore'
+        }
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        buildTypes.each {
+            it.buildConfigField 'String', 'API_KEY', ApiKey
+        }
+    }
+    productFlavors {
+        free {
+            applicationId "com.example.dora.myimagedictionary.free"
+        }
+        paid {
+            applicationId "com.example.dora.myimagedictionary.paid"
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/INDEX.LIST'
+    }
+}
+configurations {
+    all {
+        exclude module: 'httpclient'
+        exclude module: 'commons-logging'
+    }
+}
+ext{
+    supportLibrary = '27.1.1'
+    glide = '4.7.1'
+    butterKnife = '8.8.1'
+    playServices = '15.0.1'
+}
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "com.android.support:appcompat-v7:${supportLibrary}"
+    implementation "com.android.support:recyclerview-v7:${supportLibrary}"
+    implementation "com.android.support:cardview-v7:${supportLibrary}"
+    implementation "com.android.support:design:${supportLibrary}"
+    implementation "com.android.support:preference-v7:${supportLibrary}"
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    implementation "com.jakewharton:butterknife:${butterKnife}"
+    annotationProcessor "com.jakewharton:butterknife-compiler:${butterKnife}"
+    implementation "com.github.bumptech.glide:glide:${glide}"
+    annotationProcessor "com.github.bumptech.glide:compiler:${glide}"
+    implementation 'com.google.api-client:google-api-client-android:1.23.0'
+    implementation 'com.google.http-client:google-http-client-gson:1.23.0'
+    implementation 'com.google.apis:google-api-services-vision:v1-rev369-1.23.0'
+    freeImplementation "com.google.android.gms:play-services-ads:${playServices}"
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}

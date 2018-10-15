@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Képszótár</string>
+
+    <string name="change_language_title">Tényleg meg akarod változtatni a nyelvet? </string>
+    <string name="change_language_msg">Ezzel törlöd az eddig elmentett szavakat a szótárból!</string>
+    <string name="ok_label">OK</string>
+    <string name="cancel_label">Mégse</string>
+
+    <string name="select_language">Válassz nyelvet!</string>
+
+    <string name="pref_language_label">Nyelv</string>
+    <string name="france_label">Francia</string>
+    <string name="german_label">Német</string>
+    <string name="hungarian_label">Magyar</string>
+    <string name="italian_label">Olasz</string>
+    <string name="polish_label">Lengyel</string>
+    <string name="russian_label">Orosz</string>
+    <string name="spanish_label">Spanyol</string>
+    <string name="swedish_label">Svéd</string>
+    <string name="turkish_label">Török</string>
+
+    <string name="pref_theme_label">Téma</string>
+    <string name="dark_label">Sötét</string>
+    <string name="light_label">Világos</string>
+
+    <string name="pref_color_label">Szín</string>
+    <string name="blue_label">Kék</string>
+    <string name="green_label">Zöld</string>
+    <string name="red_label">Piros</string>
+
+    <string name="new_image">Kép elemzése</string>
+    <string name="my_words">Szótár</string>
+    <string name="settings">Beállítások</string>
+    <string name="exit">Kilépés</string>
+
+    <string name="edit">Edit</string>
+
+    <string name="take_or_upload_picture">Érintsd meg új kép hozzáadásához!</string>
+    <string name="take_photo">Fényképező</string>
+    <string name="choose_from_gallery">Galéria</string>
+    <string name="cancel">Mégse</string>
+
+    <string name="retry">Újra</string>
+
+    <string name="permission_denied">Az alkalmazás nem fér hozzá a kamerához. Kép feltöltéséhez engedélyezd a hozzáférést.</string>
+    <string name="no_network_msg">Nem lehet betölteni az adatokat. Ellenőrizd a házati kapcsolatot!</string>
+    <string name="error">A kép nem található.</string>
+    <string name="words_added_to_dictionary">Sikeresen hozzáadva a szótrához.</string>
+    <string name="words_deleted_from_dictionary">Sikeresen törölve a szótárból.</string>
+
+    <string name="empty_view_text">A szótár üres!</string>
+
+    <string name="delete_selected_words">Kiválasztott szavak törlése a szótárból.</string>
+    <string name="select_word">Kép kiválasztása.</string>
+    <string name="add_picture">Kép hozzáadása.</string>
+    <string name="save">Változtatások mentése.</string>
+    <string name="add">Szavak hozzáadása a szótárhoz.</string>
+    <string name="back">Újrakezdés.</string>
+    <string name="analyze">Képelemzés.</string>
+    <string name="analyzed_image">Elemzésre váró kép.</string>
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_image"
+            android:icon="@drawable/ic_analyze_image"
+            android:title="@string/new_image" />
+        <item
+            android:id="@+id/action_words"
+            android:icon="@drawable/ic_words"
+            android:title="@string/my_words" />
+        <item
+            android:id="@+id/action_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/action_exit"
+            android:icon="@drawable/ic_exit"
+            android:title="@string/exit" />
+    </group>
+</menu>
